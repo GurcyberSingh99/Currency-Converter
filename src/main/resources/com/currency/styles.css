@@ -1,0 +1,108 @@
+/* -------------------------------
+   ROOT BACKGROUND (dark mode)
+--------------------------------*/
+.root.dark {
+    -fx-background-color: #0f0f1a;
+}
+
+/* Light mode */
+.root.light {
+    -fx-background-color: #f2f2f7;
+}
+
+/* -------------------------------
+   TITLE
+--------------------------------*/
+.title {
+    -fx-font-size: 26px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #00eaff;
+}
+
+/* Light mode title */
+.root.light .title {
+    -fx-text-fill: #0077cc;
+}
+
+/* -------------------------------
+   CARD (Glass effect)
+--------------------------------*/
+.card {
+    -fx-background-color: rgba(255,255,255,0.08);
+    -fx-background-radius: 18px;
+    -fx-padding: 25px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.4), 20, 0.2, 0, 4);
+}
+
+.root.light .card {
+    -fx-background-color: #ffffff;
+}
+
+/* -------------------------------
+   INPUT FIELDS
+--------------------------------*/
+.combo, .text-field {
+    -fx-background-color: #1e1e2f;
+    -fx-text-fill: white;
+    -fx-padding: 10;
+    -fx-background-radius: 10;
+    -fx-border-color: #00eaff;
+    -fx-border-radius: 10;
+}
+
+.root.light .combo, 
+.root.light .text-field {
+    -fx-background-color: white;
+    -fx-text-fill: black;
+    -fx-border-color: #0077cc;
+}
+
+/* Placeholder text */
+.text-field .text {
+    -fx-prompt-text-fill: #888;
+}
+
+/* -------------------------------
+   BUTTON
+--------------------------------*/
+.convert-btn {
+    -fx-background-color: linear-gradient(to right, #00eaff, #00ff98);
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+    -fx-padding: 12 20;
+    -fx-background-radius: 12;
+    -fx-font-size: 14px;
+}
+
+/* Hover */
+.convert-btn:hover {
+    -fx-background-color: linear-gradient(to right, #00c6ff, #00e676);
+}
+
+/* -------------------------------
+   RESULT TEXT
+--------------------------------*/
+.result {
+    -fx-text-fill: #00ff98;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+.root.light .result {
+    -fx-text-fill: #008844;
+}
+
+/* -------------------------------
+   THEME TOGGLE BUTTON
+--------------------------------*/
+.toggle-btn {
+    -fx-background-color: #333;
+    -fx-text-fill: #00eaff;
+    -fx-background-radius: 10;
+    -fx-padding: 8 14;
+}
+
+.toggle-btn:selected {
+    -fx-background-color: #00eaff;
+    -fx-text-fill: black;
+}
