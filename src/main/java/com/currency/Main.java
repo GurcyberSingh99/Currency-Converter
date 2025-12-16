@@ -11,7 +11,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage stage) {
-        Label title = new Label("ABC Converter");
+        Label title = new Label("abc Converter");
         
         TextField amountField = new TextField();
         amountField.setPromptText("Enter amount in INR");
