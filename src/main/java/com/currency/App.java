@@ -29,7 +29,7 @@ public class App extends Application {
         scene.getStylesheets().add(css);
 
         // Window setup
-        stage.setTitle("Currency Converter");
+        stage.setTitle("Abc Converter");
         stage.setScene(scene);
         stage.show();
     }
